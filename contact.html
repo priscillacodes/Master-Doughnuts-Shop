@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="donutShop.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kaushan+Script&family=Staatliches&display=swap&family=Advent+Pro:wght@500&display=swap&family=Rajdhani:wght@500&display=swap&family=Cantarell:ital@1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="contact">
+    <nav id="mainNav" class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-compact-disc"></i> CONTACT US</a>
+            <button class="navbar-toggler justify-content-end align-items-end" type="button" data-toggle="collapse"
+                data-target="#topNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-items-end" id="topNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="donutShop.html">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="menu.html" target="_blank">MENU </a>
+                    <a class="nav-item nav-link" href="contact.html">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <form id="form" class="container">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputFirstName">First Name</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputLastName">Last Name</label>
+                <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="example@email.com">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPhone">Phone Number</label>
+                <input type="text" class="form-control" id="inputPhone" placeholder="123-456-7891">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="City">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Select...</option>
+                    <option>ALABAMA</option>
+                    <option>ALASKA</option>
+                    <option>ARIZONA</option>
+                    <option>ARKANSAS</option>
+                    <option>CALIFORNIA</option>
+                    <option>COLORADO</option>
+                    <option>CONNECTICUT</option>
+                    <option>DELAWARE</option>
+                    <option>FLORIDA</option>
+                    <option>GEORGIA</option>
+                    <option>HAWAII</option>
+                    <option>IDAHO</option>
+                    <option>ILLINOIS</option>
+                    <option>INDIANA</option>
+                    <option>IOWA</option>
+                    <option>KANSAS</option>
+                    <option>KENTUCKY</option>
+                    <option>LOUISIANA</option>
+                    <option>MAINE</option>
+                    <option>MARYLAND</option>
+                    <option>MASSACHUSETTS</option>
+                    <option>MICHIGAN</option>
+                    <option>MINNESOTA</option>
+                    <option>MISSISSIPPI</option>
+                    <option>MISSOURI</option>
+                    <option>MONTANA</option>
+                    <option>NEBRASKA</option>
+                    <option>NEVADA</option>
+                    <option>NEW HAMPSHIRE</option>
+                    <option>NEW JERSEY</option>
+                    <option>NEW MEXICO</option>
+                    <option>NEW YORK</option>
+                    <option>NORTH CAROLINA</option>
+                    <option>NORTH DAKOTA</option>
+                    <option>OHIO</option>
+                    <option>OKLAHOMA</option>
+                    <option>OREGON</option>
+                    <option>PENNSYLVANIA</option>
+                    <option>RHODE ISLAND</option>
+                    <option>SOUTH CAROLINA</option>
+                    <option>SOUTH DAKOTA</option>
+                    <option>TENNESSEE</option>
+                    <option>TEXAS</option>
+                    <option>UTAH</option>
+                    <option>VERMONT</option>
+                    <option>VIRGINIA</option>
+                    <option>WASHINGTON</option>
+                    <option>WEST VIRGINIA</option>
+                    <option>WISCONSIN</option>
+                    <option>WYOMING</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputZip">ZipCode</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="ZipCode">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Comments and Questions</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <button id="submit" type="submit" class="btn">Submit</button>
+    </form>
+
+</body>
+
+</html>

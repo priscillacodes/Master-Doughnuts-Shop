@@ -1,0 +1,194 @@
+/*Stylesheet for donutShop.html*/
+
+body{
+    background-color: rgba(247, 187, 196, 0.945);
+}
+
+body p{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.jumbotron {
+    background: url('patrick-fore-NnTQBkBkU9g-unsplash.jpg') no-repeat center center;
+    background-size: cover;
+    height: 615px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#topNav .nav-link{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Staatliches', cursive;
+}
+
+#mainNav .navbar-brand{
+    color: white;
+    font-size: 2.1rem;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 900;
+}
+
+#mainNav .fas{
+    color: #ea1c2c;
+}
+
+#topNav .nav-link:hover{
+    color: #ea1c2c;
+}
+
+.navbar .scrolled{
+    background: transparent;
+    transition: bacground 200ms;
+}
+
+@media (max-width: 1200px){
+    #mainNav .navbar-toggler{
+        float: right;
+    }
+}
+
+#firstSec{
+    padding-top: 0%;
+    margin-top: 0px;
+}
+
+#firstSec h2{
+    font-family: 'Kaushan Script', cursive;
+}
+
+#firstSec i{
+    font-size: 30px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#firstSec p{
+    font-size: 1.25rem;
+}
+
+#secondSec{
+    padding-top: 0%;
+    margin-top: 0px;
+}
+
+#secondSec h2{
+    font-family: 'Kaushan Script', cursive;
+}
+
+#secondSec i{
+    font-size: 30px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#secondSec p{
+    font-size: 1.25rem;
+}
+
+.content{
+    margin-top: 75px;
+}
+
+#stacked .img-fluid{
+    max-height: 10px;
+}
+
+#welcome{
+    color: #ea1c2c;
+}
+
+#menuLink{
+    color: #ea1c2c;
+}
+
+#bottomNav{
+    background-color: plum;
+    height: 98px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#bottomNav h4{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    padding-top: 10px;
+}
+
+#bottomNav h6{
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+h1{
+    padding-top: 5%;
+    padding-bottom: 3px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#classics{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 2.75rem;
+    color: #ea1c2c;
+}
+
+#favorites{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 2.75rem;
+    color: #ea1c2c;
+}
+
+#bev{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 2.75rem;
+    color: #ea1c2c;
+}
+
+#beverages{
+    padding-bottom: 2%;
+}
+
+.card h5{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 400;
+}
+
+.card .card-body{
+    background-color: plum;
+}
+
+.card{
+    border-color: plum;
+}
+
+#form{
+    padding-top: 6%;
+    max-width: 1000px;
+}
+
+#contact{
+    background: url(pink.jpg) no-repeat;
+    background-position: center;
+}
+
+#submit{
+    color: white;
+    background-color: #ea1c2c;
+    margin-top: 10px;
+}
+
+label{
+    color: #ea1c2c;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
